@@ -1,0 +1,144 @@
+/*
+
+	Created by: Matthew Ortiz on 03/02/2019
+
+*/
+
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+   background-color: black;
+   margin: 0;
+   font-family: Bradley Hand, cursive;
+   font-weight: 400;
+   text-align: center;
+   color: white;
+   background-image: url(home.png);
+   background-repeat: none;
+   background-size: 100% 100%;
+
+}
+
+nav {
+  display: block;
+  background-image: linear-gradient(to right, lightblue, darkblue);
+  width: 100%;
+  text-align: center;
+  font-family: Bradley Hand, cursive;
+  border: solid .05mm black;
+  
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+nav ul {
+
+  list-style: none;
+
+}
+
+nav a:hover {
+
+  color: white;
+
+}
+
+nav li {
+
+  display: inline-block;
+  position: relative;
+  margin: 0 8%;
+
+}
+
+nav a {
+
+	text-decoration: none;
+	color: black;
+  font-family: Bradley Hand;
+
+}
+
+p a {
+
+  text-decoration: none;
+
+}
+
+footer {
+
+  font-family: font-family: Bradley Hand, cursive;
+
+}
+
+div#outter {
+
+  display: block;
+  position: relative;
+  bottom: -180px;
+  margin: auto auto;
+}
+
+img#pin {
+
+  position: absolute;
+  bottom: 525px;
+  left: 435px;
+  height: 50px;
+  width: 35px;
+  z-index: 1;
+
+}
+
+img#image {
+
+  border-radius: 20%;
+  border-color: black;
+  height: 300px;
+  width: 300px;
+
+}
+
+img#paper {
+
+  border: solid .4mm black;
+  position: relative;
+  height: 600px;
+  width: 600px;
+  transform: rotate(4deg);
+
+}
+
+#inner {
+       position: relative;
+       bottom: 350px;
+       left: 0px;
+       color: black;
+    }
+
+footer {
+
+  display: block;
+  background-image: linear-gradient(to right, lightblue, darkblue);
+  width: 100%;
+  text-align: center;
+  padding: .1px .1px;
+  border: solid .05mm black;
+
+}
+
+p#here {
+
+  font-size: 19px;
+
+}
+
+
+
+
